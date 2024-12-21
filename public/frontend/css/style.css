@@ -1,0 +1,543 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+.content-section {
+    padding: 40px 20px;
+    margin-top: 80px;
+    margin-bottom: 80 px;
+}
+
+/* Hướng dẫn mua hàng */
+
+.guide-section {
+    background-color: #ffe4e1;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    width: 90%; 
+    max-width: 1500px; 
+    margin-left: auto; 
+    margin-right: auto; 
+    padding-left: 110px;
+    padding-right: 110px;
+}
+
+
+.guide-section h1 {
+    font-size: 2.5em;
+    text-align: center;
+    color: #8a5252;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.guide-section ol {
+    list-style-type: decimal;
+    padding-left: 40px;
+    font-size: 1.1em;
+    color: #555;
+    line-height: 1.8;
+}
+
+.guide-section ul {
+    list-style-type: disc;
+    margin-top: 10px;
+    margin-left: 40px;
+    color: #555;
+}
+
+.guide-section ul {
+    margin-bottom: 10px;
+}
+
+.guide-section p {
+    margin-top: 20px;
+    font-size: 1.1em;
+    color: #333;
+}
+
+/* Hướng dẫn giao nhận*/
+
+.delivery-process {
+    background-color: #ffe4e1;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    width: 90%; 
+    max-width: 1500px; 
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+.delivery-process h1 {
+    font-size: 2.5em;
+    text-align: center;
+    color: #8a5252;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.delivery-process ol {
+    list-style-type: decimal;
+    padding-left: 150px;
+    font-size: 1.1em;
+    color: #555;
+    line-height: 1.8;
+}
+
+.delivery-process ul {
+    list-style-type: disc;
+    margin-top: 10px;
+    margin-left: 40px;
+    color: #555;
+}
+
+.delivery-process p {
+    margin-top: 20px;
+    font-size: 1.1em;
+    color: #333;
+    padding-left: 110px;
+    padding-right: 110px;
+}
+
+/* Điều khoản dịch vụ */
+
+.no-bullet {
+    list-style-type: none;
+}
+
+.no-bullet li {
+    margin-bottom: 20px;
+    padding-left: 110px; 
+}
+
+.no-bullet ul {
+    list-style-type: none;
+    padding-left: 20px; 
+}
+
+.no-bullet ul li {
+    margin-bottom: 10px;
+    padding-left: 40px; 
+}
+
+.terms-of-service {
+    background-color: #ffe4e1;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); 
+    width: 90%; 
+    max-width: 1500px; 
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+.terms-of-service h1 {
+    text-align: center;
+    font-size: 2.5em; 
+    font-weight: bold;
+    color: #8a5252;
+    margin-bottom: 20px;
+}
+
+.terms-of-service ul li strong {
+    font-size: 1.2em;
+    color: #333;
+}
+
+.terms-of-service ul li i {
+    margin-right: 5px; 
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+/* Hướng dẫn thanh toán */
+.payment-guide {
+    background-color: #ffe4e1;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); 
+    width: 90%; 
+    max-width: 1500px; 
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+.payment-guide h1 {
+    text-align: center;
+    font-size: 2.5em;
+    color: #8a5252;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.no-bullet {
+    list-style: none;
+    padding: 20px;
+}
+
+.no-bullet > li {
+    margin-bottom: 20px;
+}
+
+.no-bullet > li > strong {
+    font-size: 1.3em;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.no-bullet ul {
+    list-style: none;
+    margin: 10px 0 0 20px;
+    padding-left: 20px;
+}
+
+.no-bullet ul li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    font-size: 1.1em;
+}
+
+.no-bullet ul li i {
+    margin-right: 10px;
+    font-size: 1.2em;
+}
+
+.payment-guide i.fas {
+    font-size: 1.1em;
+    vertical-align: middle;
+}
+
+/* Chính sách bảo mật */
+
+.privacy-policy {
+    background-color: #ffe4e1;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); 
+    width: 90%; 
+    max-width: 1500px; 
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+.privacy-policy h1 {
+    font-size: 2.5em;
+    color: #8a5252;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.privacy-policy ul {
+    list-style-type: none;
+    padding: 0 100px;
+}
+
+.privacy-policy ul.no-bullet > li {
+    margin: 20px 0;
+    padding: 10px 50px;
+    border-bottom: 1px solid #916161;
+}
+
+.privacy-policy strong {
+    font-size: 20px;
+    color: #555;
+    display: flex;
+    align-items: center;
+}
+
+.privacy-policy strong i {
+    margin-right: 10px;
+}
+
+.privacy-policy ul li ul {
+    padding-left: 50px;
+}
+
+.privacy-policy ul li ul li {
+    margin-bottom: 10px;
+    font-size: 1.1em;
+    color: #666;
+}
+
+/* Chính sách vận chuyển */
+
+.shipping-policy {
+    background-color: #ffe4e1;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);  
+    width: 90%; 
+    max-width: 1500px; 
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+.shipping-policy h1 {
+    font-size: 2.5em;
+    color: #8a5252;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.shipping-policy ul {
+    list-style-type: none;
+    padding: 0 100px;
+}
+
+.shipping-policy ul.no-bullet > li {
+    margin: 20px 0;
+    padding: 10px 50px;
+    border-bottom: 1px solid #916161;
+}
+
+.shipping-policy strong {
+    font-size: 20px;
+    color: #555;
+    display: flex;
+    align-items: center;
+}
+
+.shipping-policy strong i {
+    margin-right: 10px;
+}
+
+.shipping-policy ul li ul {
+    padding-left: 50px;
+}
+
+.shipping-policy ul li ul li {
+    margin-bottom: 10px;
+    font-size: 1.1em;
+    color: #666;
+}
+
+/* Chính sách đổi trả */
+
+.return-policy {
+    background-color: #ffe4e1;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); 
+    width: 90%; 
+    max-width: 1500px; 
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+.return-policy p {
+    padding: 0 100px;
+}
+
+.return-policy h1 {
+    font-size: 2.5em;
+    color: #8a5252;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.return-policy ul {
+    list-style-type: none;
+    padding: 0 100px;
+}
+
+.return-policy ul.no-bullet > li {
+    margin: 20px 0;
+    padding: 10px 50px;
+    border-bottom: 1px solid #916161;
+}
+
+.return-policy strong {
+    font-size: 20px;
+    color: #555;
+    display: flex;
+    align-items: center;
+}
+
+.return-policy strong i {
+    margin-right: 10px;
+}
+
+.return-policy ul li ul {
+    padding-left: 50px;
+}
+
+.return-policy ul li ul li {
+    margin-bottom: 10px;
+    font-size: 1.1em;
+    color: #666;
+}
+
+/* Quy định sử dụng */
+
+.terms-conditions {
+    background-color: #ffe4e1;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); 
+    width: 90%; 
+    max-width: 1500px; 
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+.terms-conditions h1 {
+    font-size: 2.5em;
+    color: #8a5252;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.terms-conditions p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #666;
+    margin-bottom: 20px;
+    padding: 0 100px;
+}
+
+.terms-conditions ul {
+    list-style-type: none;
+    padding: 0 50px;
+}
+
+.terms-conditions ul.no-bullet > li {
+    margin: 20px 0;
+    padding: 10px 50px;
+    border-bottom: 1px solid #916161;
+}
+
+.terms-conditions strong {
+    font-size: 20px;
+    color: #555;
+    display: flex;
+    align-items: center;
+}
+
+.terms-conditions strong i {
+    margin-right: 10px;
+}
+
+.terms-conditions ul li ul {
+    padding-left: 50px;
+}
+
+.terms-conditions ul li ul li {
+    margin-bottom: 10px;
+    font-size: 1.1em;
+    color: #666;
+}
+
+.terms-conditions i {
+    color: #8a5252;
+}
+
+.terms-conditions ul li ul li i {
+    margin-right: 10px;
+}
+
+/* Hệ thống cửa hàng */
+
+.store-info {
+    background-color: #ffe4e1;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.store-info .about-us {
+    padding: 0 80px;
+}
+
+.store-info .models {
+    padding: 0 80px;
+}
+
+.store-info .story {
+    padding: 0 80px;
+}
+
+.store-info .destination {
+    padding: 0 80px;
+}
+
+.store-info .store-locations {
+    padding: 0 80px;
+}
+
+.store-info .customer-support {
+    padding: 0 80px;
+}
+
+.store-info h1 {
+    font-size: 2.5em;
+    color: #8a5252;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.store-info h2 {
+    font-size: 2em;
+    color: #8a5252;
+    margin-top: 20px;
+}
+
+.store-info p {
+    font-size: 1.1em;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.store-info ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.store-info ul li {
+    margin: 15px 0;
+    padding: 10px 20px;
+}
+
+.store-info ul li strong {
+    font-size: 1.2em;
+    color: #333;
+}
+
+.store-info .customer-support p {
+    font-size: 1.1em;
+    color: #666;
+    line-height: 1.6;
+}
+
+.store-info .store-locations ul li {
+    padding-left: 0;
+}
+
+.store-info .store-locations ul li strong {
+    font-size: 1.2em;
+    color: #333;
+}
+
+.models img.img_fo {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto; /* Căn giữa ảnh */
+    display: block;
+    margin-bottom: 30px;
+}
+
